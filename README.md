@@ -174,28 +174,3 @@ Provided by default are seven npm scripts that point to Gulp tasks. We run gulp 
 * [`.stylelintrc.yml`](generators/app/templates/stylelintrc.yml)
 * [`.eslintrc.json`](generators/app/templates/eslintrc.json)
 
-## Contributing
-Would you like to contribute? Want to make a few changes or fix a bug? COME ON OVER!
-
-Clone down this repo:
-```
-git clone git@github.com:mediacurrent/theme_generator_8.git
-```
-
-Remove `generator-qed-d8-theme` if you have previously installed it:
-
-_Tip: use `npm ls -g -depth=0` to see what global node modules are installed._
-
-```
-npm uninstall generator-qed-d8-theme -g
-```
-
-From the generator root directory [link](https://docs.npmjs.com/cli/link) your local generator files to npm:
-
-```
-npm link
-```
-
-Now whenever you run `yo qed-d8-theme` it'll use your locally cloned qed-d8-theme generator. Any updates done to the generator can be tested in real time.
-
-Break off a feature branch dive right in. After you've got something you'd like to add, push back to the repo and pull request against develop.
