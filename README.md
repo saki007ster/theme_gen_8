@@ -1,4 +1,4 @@
-# Mediacurrent Theme Generator
+# Qed42 Theme Generator
 
 > [Yeoman generator](http://yeoman.io/) for Drupal Themes - lets you quickly set up a Drupal 8 theme with sensible defaults and best practices.
 
